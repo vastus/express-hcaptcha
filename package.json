@@ -1,0 +1,23 @@
+{
+  "name": "express-hcaptcha",
+  "version": "0.0.1",
+  "description": "A light middleware for Express.js to verify the hCaptcha token",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vastus/express-hcaptcha.git"
+  },
+  "keywords": [
+    "hcaptcha",
+    "express"
+  ],
+  "author": "Juho Hautala <juho.hautala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vastus/express-hcaptcha/issues"
+  },
+  "homepage": "https://github.com/vastus/express-hcaptcha#readme",
+  "dependencies": {
+    "hcaptcha": "0.0.1"
+  }
+}
