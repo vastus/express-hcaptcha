@@ -34,3 +34,8 @@ app.listen(PORT, () => {
   console.log(`listening on http://0.0.0.0:${PORT}`);
 });
 ```
+
+## Todo
+
+- [ ] tests
+- [ ] setup CI
