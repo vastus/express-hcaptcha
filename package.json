@@ -17,7 +17,14 @@
     "url": "https://github.com/vastus/express-hcaptcha/issues"
   },
   "homepage": "https://github.com/vastus/express-hcaptcha#readme",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "hcaptcha": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.5"
   }
 }
