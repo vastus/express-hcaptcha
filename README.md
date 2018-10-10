@@ -37,5 +37,5 @@ app.listen(PORT, () => {
 
 ## Todo
 
-- [ ] tests
+- [x] tests
 - [ ] setup CI
