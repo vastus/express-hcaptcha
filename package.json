@@ -1,6 +1,6 @@
 {
   "name": "express-hcaptcha",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A light middleware for Express.js to verify the hCaptcha token",
   "main": "index.js",
   "repository": {
