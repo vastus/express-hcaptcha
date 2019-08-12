@@ -1,6 +1,6 @@
-workflow "New workflow" {
-  on = "push"
+workflow "Test on push" {
   resolves = ["npm test"]
+  on = "push"
 }
 
 action "npm install" {
