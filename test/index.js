@@ -11,7 +11,7 @@ describe('hCaptcha', function () {
   describe('validate', function () {
     const secret = 'secret';
     const token = 'token';
-    const req = {body: {token}};
+    const req = {'h-captcha-response': {token}};
     const validate = middleware.validate(secret);
 
     it('returns a middleware function when called with a secret', function () {
@@ -19,7 +19,7 @@ describe('hCaptcha', function () {
       assert.deepEqual(validate.length, 3);
     });
 
-    it('calls next with an error when no token in body', function () {
+    it('calls next with an error when no token in h-captcha-response', function () {
       sinon.stub(hcaptcha, 'verify').resolves();
       const next = sinon.spy();
       validate({}, sinon.fake(), next)
