@@ -1,5 +1,8 @@
 # express-hcaptcha
 
+
+![Node.js CI](https://github.com/vastus/express-hcaptcha/workflows/Node.js%20CI/badge.svg?branch=master)
+
 Validate your hCaptcha token using a middleware.
 
 ## Usage
@@ -34,8 +37,3 @@ app.listen(PORT, () => {
   console.log(`listening on http://0.0.0.0:${PORT}`);
 });
 ```
-
-## Todo
-
-- [x] tests
-- [ ] setup CI
