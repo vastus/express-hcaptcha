@@ -24,7 +24,7 @@
     "hcaptcha": "0.0.1"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
+    "mocha": "^8.2.1",
     "sinon": "^6.3.5"
   }
 }
