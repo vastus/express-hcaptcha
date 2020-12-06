@@ -21,7 +21,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "hcaptcha": "0.0.1"
+    "hcaptcha": "0.0.2"
   },
   "devDependencies": {
     "mocha": "^8.2.1",
