@@ -6,7 +6,7 @@ const validate = (secret) => (req, res, next) => {
   // get token from the body
   // requires the body parser JSON middleware
   // on the app that uses this middleware
-  const token = req.body && req.body.token;
+  const token = req.body && req.body['h-captcha-response'];
 
   // call next with an error if no token present
   if (!token) {
